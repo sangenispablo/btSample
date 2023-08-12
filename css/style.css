@@ -1,0 +1,43 @@
+/* Con esto importamos un font de google con todas sus formas */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+#navMenu li > a {
+  font-size: 16px;
+  font-weight: bold;
+  /* color: #3f3f3f; */
+}
+
+#navMenu form > button {
+  font-size: 16px;
+}
+
+.carousel-inner {
+  max-height: 32rem;
+}
+
+@media (max-width: 768px) {
+  #intro #equipo {
+    width: 90% !important;
+  }
+
+  #equipo p {
+    display: none;
+  }
+
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
